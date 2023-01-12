@@ -1,0 +1,45 @@
+body{
+    background-color: #393E46;
+}
+
+.container{
+    margin:auto;
+    text-align: center;
+    width:70%;
+}
+
+#title{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+.d1{
+    display:flex;
+}
+
+.dice{
+    width:50%;
+}
+
+.subtitle{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    color:#4ECCA3;
+    font-size:3rem;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:950px) {
+    #title{
+        font-size: 5rem;  
+    }
+    .d1{
+        display:block;
+    }
+    .dice{
+        width:100%;
+    }
+}
